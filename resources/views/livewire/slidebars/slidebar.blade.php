@@ -4,7 +4,10 @@
           <a class="app-brand-link">
               <span class="app-brand-logo demo">
 
-                  <img width="80" height="80" src="../assets/img/illustrations/fleet.png" height="140" alt="View Badge User" data-app-dark-img="illustrations/man-with-laptop-dark.png" data-app-light-img="illustrations/man-with-laptop-light.png" />
+                  <img width="80" height="80"
+                      src="https://img.freepik.com/premium-vector/modern-financial-logo-design-idea_664675-977.jpg"
+                      height="140" alt="View Badge User" data-app-dark-img="illustrations/man-with-laptop-dark.png"
+                      data-app-light-img="illustrations/man-with-laptop-light.png" />
               </span>
               <span class="app-brand-text demo menu-text fw-bolder ms-2">{{config('app.name')}}</span>
           </a>
