@@ -1,5 +1,7 @@
 <?php
 
+use App\Livewire\Admin\Dashboard;
+use App\Livewire\Admin\ExamManager;
 use App\Livewire\Home;
 use Illuminate\Support\Facades\Route;
 
@@ -14,4 +16,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', Home::class);
+Route::get('/dashboard', Dashboard::class)->name('dashboard');
+Route::get('/home', Home::class)->name('home');
+Route::get('/exam-manager', ExamManager::class)->name('exam-manager');
